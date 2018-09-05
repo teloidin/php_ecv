@@ -1,5 +1,5 @@
 <?php 
-
+// Make two tab with even and odd  
 $list = [222, 4, 3 , 19, 39 , 388, 1];
 $list1 = [];
 $list2 = [];
@@ -19,15 +19,15 @@ foreach ($list as $l){
 }
 
 $list = [];
-$list['pair'] = [];
-$list['notpair'] = [];
+$list['even'] = [];
+$list['odd'] = [];
 
 foreach ($list1 as $l){
-	$list['pair'][] = $l;
+	$list['even'][] = $l;
 }
 
 foreach ($list2 as $l){
-	$list['notpair'][] = $l;
+	$list['even'][] = $l;
 }
 
 
