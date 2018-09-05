@@ -27,7 +27,7 @@ foreach ($list1 as $l){
 }
 
 foreach ($list2 as $l){
-	$list['even'][] = $l;
+	$list['odd'][] = $l;
 }
 
 
