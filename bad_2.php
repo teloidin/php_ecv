@@ -13,7 +13,7 @@ $car = [
 ];
 
 //Now i flat my tire 
-$car['wheels'][4] = true;
+$car['wheels'][4]['flat'] = true;
 
 //Now fix car 
 if($car['broken'] == true){	
